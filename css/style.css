@@ -1,0 +1,216 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    padding: 0px;
+    margin: 0 auto;
+    font-weight: 400;
+}
+body {
+    margin: 0px auto;
+    padding: 0px;
+}
+p {
+    margin: 0px;
+}
+h1,h2,h3,h4, h5,h6{
+    margin: 0px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+button:focus, input:focus, select:focus, textarea:focus{
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible{
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+.navbar-toggler:focus {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+img{
+    width:100%;
+    display:block;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color: transparent;
+}
+a, button{
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+/*project slick section end*/
+._project_slick_wrapper {
+    margin-top: 100px;
+    overflow: hidden;
+}
+._project_slick_cont01 {
+    font-family: 'Sora';
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: #1A1A1A;
+    margin-bottom: 10px;
+}
+._project_slick_cont02 {
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: -0.01em;
+    color: #8A8A8A;
+    max-width: 53%;
+    margin-bottom: 40px;
+}
+
+._project_slick_single_slider {
+    border: 1px solid #8A8A8A;
+    padding: 40px 70px 40px 30px;
+}
+._project_education_slider_card_txt {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 27px;
+}
+._project_education_slider_card_txt01 {
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: #8A8A8A;
+    margin-right: 29px;
+}
+._project_education_slider_card_txt02 {
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: #8A8A8A;
+}
+._project_education_slider_card_cont01 {
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: #000;
+    margin-bottom: 34px;
+}
+._project_education_slider_card_cont02 {
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: #8A8A8A;
+}
+._project_education_slider_card_btns {
+    margin-top: 30px;
+    width: 100%;
+    text-align: right;
+}
+._project_education_slider_card_btn {
+    border: 0;
+    background: transparent;
+    transform: scale(1.0);
+    transition: .3s all ease-in-out;
+}
+._project_education_slider_card_btn:hover svg {
+    transform: .3s all ease-in-out;
+}
+._project_education_slider_card_btn:hover svg {
+    transform: scale(1.22);
+}
+._project_education_slider_card_btn:hover svg path {
+    fill: rgba(228, 90, 43, 1);
+}
+
+/* responsive css */
+/* Desktop/Laptop */
+@media only screen and (min-width: 1600px) {}
+@media (max-width: 1399px) {
+    ._project_education_slider_card {
+        padding: 56px 50px 42px 48px;
+    }
+    ._project_slick_cont02 {
+        max-width: 58%;
+    }
+}
+@media only screen and (max-width: 1199px) { 
+    ._project_education_slider_card {
+        padding: 56px 40px 40px;
+    }
+}
+/* Ipad pro */
+@media only screen and (max-width: 991px) {
+    ._project_slick_wrapper {
+        margin-top: 90px;
+    }
+    ._project_slick_cont02 {
+        max-width: 100%;
+    }
+}
+/* Ipad/Mobile L */
+@media only screen and (max-width: 767px) {
+    ._project_slick_cont01 {
+        font-size: 29px;
+    }
+    ._project_slick_cont02 {
+        font-size: 18px;
+    }
+    ._project_education_slider_card {
+        padding: 40px 20px;
+    }
+    ._project_education_slider_card_cont01 {
+        font-size: 17px;
+        margin-bottom: 25px;
+    }
+}
+/* Mobile */
+@media only screen and (max-width: 575px) {
+    ._project_slick_wrapper {
+        margin-top: 70px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    ._project_education_slider_card_txt01 {
+        font-size: 15px;
+        margin-right: 18px;
+    }
+    ._project_education_slider_card_txt02 {
+        font-size: 15px;
+    }
+    ._project_education_slider_card {
+        margin: 0 0 150px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    ._project_education_slider_card_txt01 {
+        font-size: 13px;
+        margin-right: 10px;
+    }
+    ._project_education_slider_card_txt02 {
+        font-size: 13px;
+    }
+}
+/*project slick section end*/
+
