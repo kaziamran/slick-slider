@@ -56,7 +56,7 @@ a, button{
 
 /*project slick section end*/
 ._project_slick_wrapper {
-    margin-top: 100px;
+    margin: 80px 0;
     overflow: hidden;
 }
 ._project_slick_cont01 {
@@ -75,13 +75,14 @@ a, button{
     line-height: 1.4;
     letter-spacing: -0.01em;
     color: #8A8A8A;
-    max-width: 53%;
     margin-bottom: 40px;
 }
 
 ._project_slick_single_slider {
     border: 1px solid #8A8A8A;
-    padding: 40px 70px 40px 30px;
+    padding: 30px 30px 30px 25px;
+    margin: 20px;
+    transition: .4s all ease-in-out;
 }
 ._project_slick {
     position: relative;
@@ -89,8 +90,8 @@ a, button{
 ._project_education_slider_card_txt {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    margin-bottom: 27px;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
 ._project_education_slider_card_txt01 {
     font-family: 'Sora';
@@ -116,18 +117,18 @@ a, button{
     line-height: 1.2;
     letter-spacing: -0.01em;
     color: #000;
-    margin-bottom: 34px;
+    margin-bottom: 15px;
 }
 ._project_education_slider_card_cont02 {
     font-family: 'Sora';
     font-weight: 400;
     font-size: 17px;
-    line-height: 1.2;
+    line-height: 1.4;
     letter-spacing: -0.01em;
     color: #8A8A8A;
 }
 ._project_education_slider_card_btns {
-    margin-top: 30px;
+    margin-top: 20px;
     width: 100%;
     text-align: right;
 }
@@ -147,15 +148,14 @@ a, button{
     fill: rgba(228, 90, 43, 1);
 }
 
-
 .slide-arrow.prev-arrow.prev-arrow1 {
     position: absolute;
     top: -107px;
-    right: 50px;
+    right: 65px;
     border: 0;
     background: bisque;
-    width: 34px;
-    height: 34px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
 }
 .slide-arrow.next-arrow.next-arrow1 {
@@ -164,10 +164,45 @@ a, button{
     right: 0;
     border: 0;
     background: bisque;
-    width: 34px;
-    height: 34px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
 }
+
+
+._project_slick_center_slider_wrap {
+    position: relative;
+    margin-top: 60px;
+}
+
+._project_slick_single_slider.slick-slide {
+    transform: scale(0.99);
+}
+._project_slick_single_slider.slick-slide.slick-current.slick-active.slick-center {
+    transform: scale(1.15);
+}
+
+.slide-arrow.prev-arrow.prev-arrow2 {
+    position: absolute;
+    top: -107px;
+    right: 65px;
+    border: 0;
+    background: rgb(251 241 228);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.slide-arrow.next-arrow.next-arrow2 {
+    position: absolute;
+    top: -107px;
+    right: 0;
+    border: 0;
+    background: rgb(251 241 228);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
 
 /* responsive css */
 /* Desktop/Laptop */
