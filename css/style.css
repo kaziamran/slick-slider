@@ -80,8 +80,8 @@ a, button{
 
 ._project_slick_single_slider {
     border: 1px solid #8A8A8A;
-    padding: 30px 30px 30px 25px;
-    margin: 20px;
+    padding: 30px 30px 20px;
+    margin: 24px;
     transition: .4s all ease-in-out;
 }
 ._project_slick {
@@ -169,7 +169,6 @@ a, button{
     border-radius: 50%;
 }
 
-
 ._project_slick_center_slider_wrap {
     position: relative;
     margin-top: 60px;
@@ -184,8 +183,8 @@ a, button{
 
 .slide-arrow.prev-arrow.prev-arrow2 {
     position: absolute;
-    top: -107px;
-    right: 65px;
+    top: -100px;
+    right: 190px;
     border: 0;
     background: rgb(251 241 228);
     width: 50px;
@@ -194,13 +193,36 @@ a, button{
 }
 .slide-arrow.next-arrow.next-arrow2 {
     position: absolute;
-    top: -107px;
-    right: 0;
+    top: -100px;
+    right: 120px;
     border: 0;
     background: rgb(251 241 228);
     width: 50px;
     height: 50px;
     border-radius: 50%;
+}
+
+._project_slick_center_slider {
+    margin: 0 -120px 0 -120px;
+}
+
+
+/* dot */
+
+.slick-dots li {
+    width: 15px;
+    height: 15px;
+}
+.slick-dots .slick-active button {
+    background: red;
+}
+.slick-dots li button {
+    width: 15px;
+    height: 15px;
+    padding: 4px;
+    background: #1A1A1A;
+    border-radius: 50%;
+    border: 1px solid transparent;
 }
 
 
